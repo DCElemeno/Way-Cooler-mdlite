@@ -36,12 +36,16 @@
     <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <!--<meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">-->
     <meta name="msapplication-TileColor" content="#3372DF">
     <link rel="shortcut icon" href="images/WCfavicon.ico">
 
     <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
     <!-- <link rel="canonical" href="http://www.example.com/"> -->
+
+    <!-- include angularjs and material design lite - shouldn't do this by cdn, will fix later-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
@@ -92,10 +96,7 @@
     <!-- view source code button -->
     <a href="https://github.com/way-cooler" target="_blank" id="view-source" 
       class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">
-      <img src="images/white-github-16.ico"> View Source</a>
-
-    <!-- include material design lite -->
-    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+      <img src="images/white-github-16.ico"> View Source Code</a>
 
   </body>
 </html>
