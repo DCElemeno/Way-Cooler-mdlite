@@ -77,17 +77,21 @@
       <!-- page container div-->
       <main class="mdl-layout__content">
 
-        <!-- overview page content content -->
-        <?php include_once("/pages/home.html");?>
+        <main
 
-        <!-- features page -->
-        <?php include_once("/pages/features.html");?>
+          <!-- overview page content content -->
+          <?php include_once("/pages/home.html");?>
 
-        <!-- install info page -->
-        <?php include_once("/pages/install.html");?>
+          <!-- features page -->
+          <?php include_once("/pages/features.html");?>
 
-        <!-- documentation page -->
-        <?php include_once("/pages/docs.html");?>
+          <!-- install info page -->
+          <?php include_once("/pages/install.html");?>
+
+          <!-- documentation page -->
+          <?php include_once("/pages/docs.html");?>
+
+        </main>
 
         <!-- include site wide footer -->
         <?php include_once("/pages/footer.html"); ?>
