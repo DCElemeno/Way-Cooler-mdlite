@@ -44,8 +44,10 @@
     <!-- <link rel="canonical" href="http://www.example.com/"> -->
 
     <!-- include angularjs and material design lite - shouldn't do this by cdn, will fix later-->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script type="text/javascript" href="scripts.js"></script>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
@@ -76,16 +78,16 @@
       <main class="mdl-layout__content">
 
         <!-- overview page content content -->
-        <?php include_once("/pages/home.html"); ?>
+        <?php include_once("/pages/home.html");?>
 
         <!-- features page -->
-        <?php include_once("/pages/features.html"); ?>
+        <?php include_once("/pages/features.html");?>
 
         <!-- install info page -->
-        <?php include_once("/pages/install.html"); ?>
+        <?php include_once("/pages/install.html");?>
 
         <!-- documentation page -->
-        <?php include_once("/pages/docs.html"); ?>
+        <?php include_once("/pages/docs.html");?>
 
         <!-- include site wide footer -->
         <?php include_once("/pages/footer.html"); ?>
